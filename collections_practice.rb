@@ -29,7 +29,7 @@ end
 
 def add_s(array)
     array.reject do |value|
-      value << "s"
+      value << "s" if value != array[1]
   end
   array
 end
