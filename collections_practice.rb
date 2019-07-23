@@ -26,3 +26,9 @@ def sum_array(array)
     sum + n
   end
 end
+
+def add_s(array)
+  array.except([1]).each do |s|
+  array << s
+end
+end
