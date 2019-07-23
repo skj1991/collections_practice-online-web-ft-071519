@@ -28,7 +28,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.except([1]).each do |s|
-  array << s
-end
+    array.except([1]).each do |s|
+      array << s
+  end
 end
