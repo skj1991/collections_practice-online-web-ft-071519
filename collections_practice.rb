@@ -28,8 +28,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-    array.reject do |value, s|
-      !value == [1]
+    array.reject do |value|
       value << "s"
   end
   array
