@@ -32,4 +32,5 @@ def add_s(array)
       value == [1]
       value << "s"
   end
+  array
 end
