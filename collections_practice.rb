@@ -30,6 +30,6 @@ end
 def add_s(array)
     array.reject do |value, s|
       value == [1]
-      array.each << "s"
+      value << "s"
   end
 end
