@@ -28,7 +28,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-    array.except([1]).each do |s|
-      array << s
+    array.reject do |value, s|
+      value == index[1]
+      array.each << s
   end
 end
