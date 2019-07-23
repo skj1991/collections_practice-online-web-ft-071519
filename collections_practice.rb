@@ -29,7 +29,7 @@ end
 
 def add_s(array)
     array.reject do |value, s|
-      value == index[1]
+      value == [1]
       array.each << s
   end
 end
